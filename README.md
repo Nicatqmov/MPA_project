@@ -1,6 +1,6 @@
 # Mobile Application Development Project
 
-## Priject Team
+## Project Team
 - **[Nijat Gasimov]** 
 - **[Elcan Khalilzade]**
 
