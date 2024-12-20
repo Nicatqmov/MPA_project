@@ -1,8 +1,8 @@
 # Mobile Application Development Project
 
-## Authors
-- **[Nijat Gasimov]** (email@example.com)
-- **[Elcan Khalilzade]** (email@example.com)
+## Priject Team
+- **[Nijat Gasimov]** 
+- **[Elcan Khalilzade]**
 
 ---
 
@@ -93,5 +93,4 @@ The application integrates with the Deezer API, using the following endpoints:
 
 ### [Elcan Khalilzade]
 - Created data models for Deezer API integration.
-- Implemented the Favorites feature.
 - Optimized app performance using Kotlin Coroutines.
