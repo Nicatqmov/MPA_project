@@ -18,12 +18,9 @@ The application includes the following key screens:
 
 | Screen Name          | Description                             
 |----------------------|-----------------------------------------
-| **Genres Screen**    | Displays all music genres              
-| **Artists Screen**   | Lists artists under a selected genre   
-| **Artist Screen**    | Shows details about a specific artist and their albums 
-| **Album Screen**     | Displays track listings for an album  
-| **Track Screen**     | Allows playback of a track preview and adds to playlists 
-| **Favorites Screen** | Manages favorite tracks               
+| **Home Screen**       | Lists tracks     
+| **Library Screen**    | Shows playlists about a specific artist and their albums 
+| **Search Screen**     | Displays search results   
 
 ---
 
@@ -72,8 +69,6 @@ The application integrates with the Deezer API, using the following endpoints:
 
 | **Endpoint**                | **Purpose**                              |**Example**                                   |
 |-----------------------------|------------------------------------------|-----------------------------------------------|
-| `GET /genre`                | Fetches all available music genres       | `https://api.deezer.com/genre`                |
-| `GET /genre/{id}/artists`   | Fetches artists by genre ID              | `https://api.deezer.com/genre/132/artists`    |
 | `GET /artist/{id}/albums`   | Fetches albums by artist ID              | `https://api.deezer.com/artist/27/albums`     |
 | `GET /album/{id}/tracks`    | Fetches tracks by album ID               | `https://api.deezer.com/album/302127/tracks`  |
 | `GET /search?q={query}`     | Searches for tracks                      | `https://api.deezer.com/search?q=eminem`      |
@@ -89,7 +84,7 @@ The application integrates with the Deezer API, using the following endpoints:
 ---
 
 
-## Contributions
+## Contributions in our team
 
 ### [Nijat Gasimov]
 - Implemented the API layer using Retrofit.
@@ -100,5 +95,3 @@ The application integrates with the Deezer API, using the following endpoints:
 - Created data models for Deezer API integration.
 - Implemented the Favorites feature.
 - Optimized app performance using Kotlin Coroutines.
-
----
